@@ -21,8 +21,6 @@ public class usereventlistenerUserOperationEventListener extends AbstractUserOpe
     @Override
     public int getExecutionOrderId() {
 
-        //TODO: Implementation required.
-
         //This listener should execute before the IdentityMgtEventListener.
         //Hence the number should be < 1357 (Execution order ID of IdentityMgtEventListener).
         return 1356;
