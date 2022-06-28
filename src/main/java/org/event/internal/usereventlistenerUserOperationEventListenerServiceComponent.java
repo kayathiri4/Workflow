@@ -1,4 +1,4 @@
-package org.groupid.internal;
+package org.event.internal;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
@@ -11,7 +11,7 @@ import org.osgi.service.component.annotations.ReferenceCardinality;
 import org.osgi.service.component.annotations.ReferencePolicy;
 import org.wso2.carbon.user.core.listener.UserOperationEventListener;
 import org.wso2.carbon.user.core.service.RealmService;
-import org.groupid.usereventlistenerUserOperationEventListener;
+import org.event.usereventlistenerUserOperationEventListener;
 
 @Component(name = "org.groupid.usereventlistenerUserOperationEventListenerServiceComponent",
         immediate = true)

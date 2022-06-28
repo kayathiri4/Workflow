@@ -1,4 +1,4 @@
-package org.groupid.internal;
+package org.event.internal;
 
 import org.wso2.carbon.user.core.service.RealmService;
 

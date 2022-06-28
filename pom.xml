@@ -5,8 +5,8 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.groupid</groupId>
-    <artifactId>org.groupid.artifactid</artifactId>
+    <groupId>org.event</groupId>
+    <artifactId>org.event.listener</artifactId>
     <version>1.0.0</version>
     <packaging>bundle</packaging>
 

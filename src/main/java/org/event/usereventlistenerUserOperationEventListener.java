@@ -1,4 +1,4 @@
-package org.groupid;
+package org.event;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
