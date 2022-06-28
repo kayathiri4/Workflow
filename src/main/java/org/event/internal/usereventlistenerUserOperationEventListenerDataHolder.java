@@ -1,25 +1,25 @@
 package org.event.internal;
 
-import org.wso2.carbon.user.core.service.RealmService;
+
 
 public class usereventlistenerUserOperationEventListenerDataHolder {
 
     private static usereventlistenerUserOperationEventListenerDataHolder instance =
             new usereventlistenerUserOperationEventListenerDataHolder();
 
-    private RealmService realmService;
+    private String realmService;
 
     public static usereventlistenerUserOperationEventListenerDataHolder getInstance() {
 
         return instance;
     }
 
-    public RealmService getRealmService() {
+    public String getRealmService() {
 
         return realmService;
     }
 
-    public void setRealmService(RealmService realmService) {
+    public void setRealmService(String realmService) {
 
         this.realmService = realmService;
     }
